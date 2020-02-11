@@ -4,3 +4,19 @@
 body {
   margin: 0;
 }
+/*boxes*/
+.header {
+  border: 2px solid red;
+  /*position: fixed;*/
+}
+.main {
+  border: 2px solid violet;
+  height: 100%;
+}
+.logo {
+  border: 2px solid blue;
+}
+
+.menu {
+  border: 2px solid yellow;
+}
