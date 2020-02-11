@@ -8,7 +8,23 @@ body {
   background-color: #3cdbc0;
 }
 
+.divstyle {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
 .header {
+  width: 100%;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,26 +33,36 @@ body {
 }
 
 .menu {
+  width: 39%;
+  margin: 10px 0px 13px 0px;
+  padding: 0;
+  box-sizing: border-box;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /*justify-content: space-between;*/
   color: #4a4a4a;
   font-size: 16;
 }
-
-.main {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
+.h1 {
   font-size: 30px;
 }
 .logo {
+  width: 155px;
 }
-
+@media all and (min-width: 768px){
+  .header {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+    .menu {
+      width: 14%;
+      
+    }
+  }
+}
 /*boxes*/
 .header {
   border: 2px solid red;
@@ -46,13 +72,13 @@ body {
   border: 2px solid violet;
   height: 100%;
 }
-.logo {
-  border: 2px solid blue;
+/*.logo {
+  border: 2px solid blue;*/
 }
 
-.menu {
-  border: 2px solid yellow;
+/*.menu {
+  border: 2px solid yellow;*/
 }
-.botton1 {
+/*.botton1 {
   border: 2px solid black;
-}
+}*/
