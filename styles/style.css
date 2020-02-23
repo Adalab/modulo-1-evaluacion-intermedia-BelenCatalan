@@ -20,7 +20,7 @@ body {
   align-content: center;
   align-items: center;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
 }
 .header {
   width: 100%;
@@ -45,40 +45,21 @@ body {
   color: #4a4a4a;
   font-size: 16;
 }
+a {
+  color: #4a4a4a;
+}
 .h1 {
-  font-size: 30px;
+  font-size: 40px;
 }
 .logo {
   width: 155px;
 }
-@media all and (min-width: 768px){
+@media all and (min-width: 768px) {
   .header {
-    display:flex;
     flex-direction: row;
     justify-content: space-between;
   }
-    .menu {
-      width: 14%;
-      
-    }
+  .menu {
+    width: 14%;
   }
 }
-/*boxes*/
-.header {
-  border: 2px solid red;
-  /*position: fixed;*/
-}
-.main {
-  border: 2px solid violet;
-  height: 100%;
-}
-/*.logo {
-  border: 2px solid blue;*/
-}
-
-/*.menu {
-  border: 2px solid yellow;*/
-}
-/*.botton1 {
-  border: 2px solid black;
-}*/
